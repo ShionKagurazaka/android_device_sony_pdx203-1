@@ -19,15 +19,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 # Inherit from common.mk
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-
+WITH_GAPPS := true
 PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := pdx203
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_NAME := lineage_pdx203
+PRODUCT_NAME := ancient_pdx203
 PRODUCT_MODEL := Xperia 1 II
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
