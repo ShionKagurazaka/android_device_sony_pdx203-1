@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020 The Ancient-OS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pdx203.mk
+    $(LOCAL_DIR)/ancient_pdx203.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_pdx203-user \
-    lineage_pdx203-userdebug \
-    lineage_pdx203-eng
+    ancient_pdx203-user \
+    ancient_pdx203-userdebug \
+    ancient_pdx203-eng
